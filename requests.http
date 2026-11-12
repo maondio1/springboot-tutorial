@@ -1,0 +1,14 @@
+### Titolo valido
+POST http://localhost:8080/api/attivita
+Content-Type: application/json
+
+{"titolo":"Provare un POST"}
+
+### Titolo vuoto
+POST http://localhost:8080/api/attivita
+Content-Type: application/json
+
+{"titolo":""}
+
+### Rileggi la lista
+GET http://localhost:8080/api/attivita
