@@ -12,6 +12,10 @@ git diff
 git add percorso/del/file
 git commit -m "Descrizione breve"
 git log --oneline
+
+git switch -c nome-branch
+
+git switch nome-branch
 ```
 
 Leggi l'output prima di ogni comando che registra modifiche. `git add` prepara file allo stage; non li pubblica su Internet.
@@ -21,3 +25,4 @@ Leggi l'output prima di ogni comando che registra modifiche. `git add` prepara f
 La vista **Project** mostra cartelle e file; l'editor mostra il file selezionato; la finestra **Run** mostra l'output dell'applicazione. Le frecce verdi avviano applicazione o test. La finestra Maven permette di ricaricare il progetto e lanciare obiettivi.
 
 Se non trovi una voce di menu, usa **Find Action** (`Ctrl+Shift+A` su Windows/Linux, `Cmd+Shift+A` su macOS) e cerca l'azione per nome. Quando compaiono errori rossi, leggi prima il messaggio completo e la prima riga del tuo codice indicata nello stack trace.
+
