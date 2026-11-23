@@ -10,6 +10,7 @@ public class Attivita {
         this.titolo = titolo;
         this.completata = completata;
     }
+    //commento
 
     public int getId() {
         return id;
