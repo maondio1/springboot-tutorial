@@ -1,0 +1,3 @@
+interface:
+  display_name: "Spring API Tutor"
+  short_description: "Aggiungi endpoint Spring e verifica con Insomnia"
